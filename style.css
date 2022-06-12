@@ -1,0 +1,28 @@
+#parent {
+    white-space: nowrap;
+}
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.body {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTojh3W0l62dt9JAHGf4yEn8xg4HxRdoXl7kg&usqp=CAU) 0% 0% / cover no-repeat;
+}
+.site-name {
+    color: white;
+    font-family: Anton;
+    text-shadow: rgb(255, 0, 0) 0px 0px 11px, rgb(0, 0, 255) 0px 0px 13px;
+}
+.trending {
+    color: white;
+    font-family: Anton;
+    text-shadow: rgb(255, 0, 0) 0px 0px 11px, rgb(0, 0, 255) 0px 0px 13px;
+    font-size: 200%;
+    text-align: center;
+    background-color: black;
+}
+.child {
+    display: inline-block;
+}
